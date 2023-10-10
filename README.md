@@ -2,7 +2,7 @@
 高専祭 ランキングソフト
 
 ## 起動準備方法
-pythonのインストール  tkinterのインストール  data.jsonを作成(lsit　[]を配置)
+pythonのインストール  tkinterのインストール  data.jsonを作成(list　[]を配置)
 
 ## ファイル説明
 名前|説明
