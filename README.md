@@ -7,7 +7,7 @@ pythonのインストール  tkinterのインストール  data.jsonを作成(li
 ## ファイル説明
 名前|説明
 -|-
-naub.py | ランキング表示
+main.py | ランキング表示
 data_admin.py | ランキング編集 管理者用
 run_scripts.sh | 一斉起動
 
