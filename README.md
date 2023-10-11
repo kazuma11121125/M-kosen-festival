@@ -1,4 +1,4 @@
-## M-kosen-festival
+M-kosen-festival
 高専祭 ランキングソフト
 
 ## 起動準備方法
@@ -12,4 +12,13 @@ data_admin.py | ランキング編集 管理者用
 run_scripts.sh | 一斉起動
 
 ## 起動方法
-./run_scripts.sh を実行
+./run_scripts.sh を実行 
+
+## Linux専用設計 
+windowsで実行する場合、root.attributes('-zoomed', True) をコメントアウトしてください。 
+
+
+
+
+
+
