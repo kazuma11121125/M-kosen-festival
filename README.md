@@ -9,14 +9,6 @@ pythonのインストール  tkinterのインストール  data.jsonを作成(li
 -|-
 main.py | ランキング表示
 data_admin.py | ランキング編集 管理者用
-run_scripts.sh | 一斉起動
-
-## 起動方法
-./run_scripts.sh を実行 
-
-## Linux専用設計 
-windowsで実行する場合、root.attributes('-zoomed', True) をコメントアウトしてください。 
-
 
 
 
