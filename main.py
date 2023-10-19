@@ -40,7 +40,7 @@ root = tk.Tk()
 root.title("ランキング")
 
 # ウィンドウを最大化（全画面表示）
-root.attributes('-zoomed', True)
+# root.attributes('-zoomed', True)
 
 # ランキングフレーム
 ranking_frame = tk.Frame(root)
