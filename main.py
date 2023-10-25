@@ -44,8 +44,8 @@ def show():
             label_score.grid(row=1, column=1, pady=(15, 10), padx=30)  # 横方向と縦方向のスペースを確保
             label_text = tk.Label(ranking_frame, text="Name", font=score_font)  # 大きなフォントを適用
             label_text.grid(row=1, column=2, pady=(15, 10), padx=30)  # 横方向と縦方向のスペースを確保
-            # 初期ランキングを表示（上位10位まで）
-            for i, (rank, score, text) in enumerate(ranking_data[:10]):
+            # 初期ランキングを表示（上位6位まで）
+            for i, (rank, score, text) in enumerate(ranking_data[:6]):
                 label_rank = tk.Label(ranking_frame, text=f"{i + 1}位", font=score_font)  # 大きなフォントを適用
                 label_rank.grid(row=i + 2, column=0, pady=10, padx=40)  # 横方向と縦方向のスペースを確保
                 label_score = tk.Label(ranking_frame, text=score, font=score_font)  # スコア表示のフォントサイズを2倍に適用
